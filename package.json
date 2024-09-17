@@ -1,0 +1,18 @@
+{
+  "name": "tclobjparser",
+  "version": "1.0.0",
+  "description": "Convert Tcl-Object Strings to JS-Objects",
+  "main": "tclobjparser.js",
+  "scripts": {
+    "test": "parser = require('tclobjparser'); parser('a 4711 b xyz c {Das ist ein Test.} d {}', ['dict', 'string']);"
+  },
+  "keywords": [
+    "tcl",
+    "parser",
+    "object",
+    "list",
+    "dict"
+  ],
+  "author": "Jörg Mehring",
+  "license": "PD"
+}
