@@ -1,6 +1,6 @@
 {
   "name": "tclobjparser",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Convert Tcl-Object Strings to JS-Objects",
   "main": "tclobjparser.js",
   "scripts": {
@@ -14,5 +14,9 @@
     "dict"
   ],
   "author": "Jörg Mehring",
-  "license": "PD"
+  "license": "PD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joergmehring/tclobjparser"
+  }
 }

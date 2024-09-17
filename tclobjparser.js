@@ -12,7 +12,7 @@
  * { a: 4711, b: 'xyz', c: 'This is a Test.', d: null }
  * @endcode
  */
-function tclObjParser(str, type) {
+module.exports = function tclObjParser(str, type) {
   /**
    * Loading a token from the string
    * @param {String} str The string to be processed
@@ -191,6 +191,3 @@ function tclObjParser(str, type) {
 
   return this.parse(str, type, 0);
 };
-
-module.exports = { tclObjParser };
-
